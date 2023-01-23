@@ -14,8 +14,7 @@
 
 body
 {
-width:100%;
-margin:0;
+  font-weight: 400;
 overflow-x: hidden;
 
 }
@@ -25,7 +24,7 @@ a{
 }
 button {
   height: 50px;
-  width: 20px;
+  
   margin-left: 100px;
   
 }
@@ -38,4 +37,16 @@ button {
 }
 .heading-color{
   background-color: #F0FF42;
+}
+span{
+  font-weight: bold;
+}
+.th{
+  background-color: #F0FF42;
+}
+li{
+  font-weight: 600;
+}
+td{
+  font-weight: 600;
 }
