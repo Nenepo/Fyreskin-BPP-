@@ -3,7 +3,7 @@
   /* Custom color variables */
   *{
     box-sizing: border-box;
-    
+    overflow: hidden;
    
   }
   body{
@@ -44,7 +44,7 @@ button {
   
 }
 .header{
-  margin-left: 50px;
+  margin-left: 10px;
  
 }
 .sidebar{
@@ -74,5 +74,7 @@ td{
     width: 375px;
     margin: 2rem auto;
   }
+  
+
   
 }
