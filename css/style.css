@@ -6,9 +6,14 @@
     
    
   }
-  body{
-    overflow-x: hidden;
-  }
+ body
+{
+width:100%;
+margin:0;
+Background-size: cover;
+overflow-x: hidden;
+
+}
 :root {
   --primary: #e67e22;
   --secondary: #16a085;
