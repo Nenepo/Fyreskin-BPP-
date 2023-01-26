@@ -3,7 +3,7 @@
   /* Custom color variables */
   *{
     box-sizing: border-box;
-    overflow: hidden;
+    
    
   }
   body{
@@ -20,7 +20,10 @@
   --dark: #2c3e50;
  
 }
-
+h1{
+  font-weight: bolder;
+  font-size: calc(1.375rem + 2vw);
+}
 .container
 {
   font-weight: 400;
@@ -68,13 +71,30 @@ td{
 .total{
   text-align: center;
 }
+/* #sidebar {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 1000;
+ 
+  overflow-y: auto;
+  transition: all 0.3s;
+} */
 
-  @media (max-width : 450px){
+  @media  (max-width : 400px){
   .container{
     width: 375px;
     margin: 2rem auto;
   }
+  .header{
+    font-size: medium;
+    
+      
   
-
+   
+  }
+  
   
 }
