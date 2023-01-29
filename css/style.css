@@ -3,12 +3,18 @@
   /* Custom color variables */
   *{
     box-sizing: border-box;
+overflow-x: hidden;
     
    
   }
-  body{
-    overflow-x: hidden;
-  }
+ body
+{
+width:100%;
+margin:0;
+Background-size: cover;
+
+
+}
 :root {
   --primary: #e67e22;
   --secondary: #16a085;
