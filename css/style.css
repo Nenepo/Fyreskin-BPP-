@@ -70,6 +70,8 @@ span{
 }
 li{
   font-weight: 600;
+  overflow-x: visible;
+
 }
 td{
   font-weight: 600;}
